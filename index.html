@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <title>MANATIES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <style>
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 10px;
+        }
+        .galeria img {
+            max-width: 100%;
+            height: auto;
+            width: calc(33% - 10px); /* Adjust this width based on your desired number of columns */
+        }
+    </style>
+</head> 
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="MENUDENAVEGACION">
+                <a href="#ACERCA-DE" id="btn-ACERCA-DE">ACERCA DE</a>
+                <a href="#GALERIA" id="btn-GALERIA">GALERIA</a>
+                <a href="#UBICACION" id="btn-UBICACION">UBICACION</a>
+                <a href="#CONTACTO" id="btn-CONTACTO">CONTACTO</a>
+            </nav>
+            <div class="texto">
+                <h1 class="nombre">MANATIES <span>planeta</span></h1>
+                <h3>"Salvemos a los gentiles gigantes del mar, protejamos a los manatíes y su hogar acuático."</h3>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="ACERCA-DE" id="ACERCA-DE">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="IMG/fotoinicial.jpg" alt="Foto de manatí">
+                </div>
+                <article>
+                    <h3>ACERCA DE</h3>
+                    <p>Los manatíes juegan un papel crucial en los ecosistemas acuáticos, ya que son herbívoros y se alimentan de plantas acuáticas, lo que ayuda a mantener el equilibrio del hábitat. Sin embargo, enfrentan diversas amenazas en la República Dominicana, incluyendo la pérdida de hábitat debido al desarrollo costero, la contaminación del agua, la pesca incidental y las colisiones con embarcaciones.</p>
+                    <p>Para proteger a los manatíes en la República Dominicana, se están llevando a cabo esfuerzos de conservación, como la creación de áreas protegidas, campañas de concienciación pública y programas de monitoreo de la población. Además, se están implementando medidas para reducir los conflictos con las actividades humanas, como la regulación del tráfico marítimo en áreas donde habitan los manatíes y la promoción de prácticas pesqueras sostenibles.</p>
+                </article>
+            </div>
+        </section>
+        <section class="GALERIA" id="GALERIA">
+            <h3>GALERIA</h3>
+            <div class="galeria">
+                <img src="IMG/foto1.jpg" alt="Foto de manatí 1">
+                <img src="IMG/foto2.jpg" alt="Foto de manatí 2">
+                <img src="IMG/foto3.jpg" alt="Foto de manatí 3">
+                <img src="IMG/foto4.jpg" alt="Foto de manatí 4">
+                <img src="IMG/foto5.jpg" alt="Foto de manatí 5">
+                <img src="IMG/foto6.jpg" alt="Foto de manatí 6">
+            </div>
+        </section>
+        <section class="UBICACION" id="UBICACION">
+            <!-- Contenido de la ubicación -->
+        </section>
+        <section class="CONTACTO" id="CONTACTO">
+            <!-- Contenido del contacto -->
+        </section>
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
